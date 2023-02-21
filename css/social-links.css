@@ -1,0 +1,484 @@
+/* --------------------------------links--------------------------- */
+
+
+/* :root {
+    --link-decrement-x: 0px;
+    --link-decrement-y: 0px
+}
+
+@media (max-width: 1400px) {
+    :root{
+    --link-decrement-x: 30px;
+    --link-decrement-y: 0px
+    }
+}
+@media (max-width: 1400px) {
+    :root{
+    --link-decrement-x: 60px;
+    --link-decrement-y: 0px
+    }
+}
+@media (max-width: 1200px) {
+    :root{
+    --link-decrement-x: 90px;
+    --link-decrement-y: 0px
+    }
+}
+@media (max-width: 1100px) {
+    :root{
+    --link-decrement-x: 120px;
+    --link-decrement-y: 0px
+    }
+}
+@media (max-width: 900px) {
+    :root{
+    --link-decrement-x: 180px;
+    --link-decrement-y: 0px
+    }
+}
+@media (max-width: 870px) {
+    :root{
+    --link-decrement-x: 50px;
+    --link-decrement-y: 0px
+    }
+} */
+
+#adaptive-links-container{
+    position: relative;
+    /* max-width: 1440px;
+    margin: 0 auto; */
+}
+
+#links-container{
+    position: absolute;
+    max-width: 1440px;
+    height: 627px;
+    width: 100%;
+    /* background-color: rgba(136, 201, 253, 0.5); */
+    left: 0;
+    right: 0;
+    top: -70px;
+    bottom: 0;
+    margin: auto;
+}
+
+.header-img1 {
+    position: absolute;
+    width: 63.75px;
+    height: 68.88px;
+    /* right: 90.57%; */
+    /* left: calc(5% - var(--link-decrement-x)); */
+    left: 5%;
+    top: 137px;  
+}
+
+.header-photo1 {
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    /* left: 211px; */
+    left: 14.652%;
+    /* left: calc(14.652% - var(--link-decrement-x)); */
+    top: 176px;
+
+}
+
+.header-photo2 {
+    position: absolute;
+    width: 59px;
+    height: 59px;
+    /* left: 1096px; */
+    right: 20.8888%;
+    /* right: calc(20.8888% - var(--link-decrement-x)); */
+    top: 299px;
+}
+
+.header-youtube-logo {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    /* left: 1247px;*/
+    right: 13.4%;
+    /* right: calc(13.4% - var(--link-decrement-x)); */
+    top: 180px; 
+}
+
+.header-facebook-logo {
+    position: absolute;
+    width: 41px;
+    height: 42px;
+    /* left: 163px;*/
+    left: 11.3194%;
+    /* left: calc(11.3194% - var(--link-decrement-x)); */
+    top: 286px; 
+}
+
+.header-snapchat-logo{
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    /* left: 1214px;*/
+    right: 15.694444%;
+    /* right: calc(15.694444% - var(--link-decrement-x)); */
+    top: 364px; 
+}
+
+.header-dicord-logo {
+    position: absolute;
+    width: 49px;
+    height: 49px;
+    /* left: 283px;*/
+    left: 19.6527%;
+    /* left: calc(19.6527% - var(--link-decrement-x)); */
+    top: 350px; 
+}
+
+.header-telegram-logo {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    /* left: 233px;*/
+    left: 16.18%;
+    /* left: calc(16.18% - var(--link-decrement-x)); */
+    top: 442px; 
+}
+
+.header-twitter-logo {
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    /* left: 1226px;*/
+    right: 14.86%;
+    /* right: calc(14.86% - var(--link-decrement-x)); */
+    top: 514px; 
+}
+
+@media (max-width:1400px) {
+    #links-container{
+
+    }
+    
+    .header-img1 {
+        top: 137px;  
+    }
+    
+    .header-photo1 {
+        left: calc(14.652% - 50px);
+        top: 176px;
+    }
+    
+    .header-photo2 {
+        right: calc(20.8888% - 50px);
+        top: 299px;
+    }
+    
+    .header-youtube-logo {
+        top: 180px; 
+        right: calc(13.4% - 50px);
+    }
+    
+    .header-facebook-logo {
+        left: calc(11.3194% - 50px);
+        top: 286px; 
+    }
+    
+    .header-snapchat-logo{
+        top: 364px; 
+        right: calc(15.694444% - 50px)
+    }
+    
+    .header-dicord-logo {
+        left: calc(19.6527% - 50px);
+        top: 350px; 
+    }
+    
+    .header-telegram-logo {
+        left: calc(16.18% - 50px);
+        top: 442px; 
+    }
+    
+    .header-twitter-logo {
+        top: 514px; 
+        right: calc(14.86% - 50px);
+    }
+}
+
+@media (max-width:1270px) {
+    #links-container{
+
+    }
+    
+    .header-img1 {
+        top: 87px;  
+    }
+    
+    .header-photo1 {
+        left: calc(14.652% - 100px);
+        top: 176px;
+    }
+    
+    .header-photo2 {
+        right: calc(20.8888% - 100px);
+        top: 299px;
+    }
+    
+    .header-youtube-logo {
+        top: 180px; 
+        right: calc(13.4% - 100px);
+    }
+    
+    .header-facebook-logo {
+        left: calc(11.3194% - 100px);
+        top: 286px; 
+    }
+    
+    .header-snapchat-logo{
+        top: 364px; 
+        right: calc(15.694444% - 100px)
+    }
+    
+    .header-dicord-logo {
+        left: calc(19.6527% - 100px);
+        top: 350px; 
+    }
+    
+    .header-telegram-logo {
+        left: calc(16.18% - 100px);
+        top: 442px; 
+    }
+    
+    .header-twitter-logo {
+        top: 514px; 
+        right: calc(14.86% - 100px);
+    }
+}
+
+@media (max-width:1100px) {
+    #links-container{
+
+    }
+    
+    .header-img1 {
+        top: 57px;  
+    }
+    
+    .header-photo1 {
+        left: calc(14.652% - 100px);
+        top: 246px;
+    }
+    
+    .header-photo2 {
+        right: calc(20.8888% - 100px);
+        top: 359px;
+    }
+    
+    .header-youtube-logo {
+        top: 240px; 
+        right: calc(13.4% - 100px);
+    }
+    
+    .header-facebook-logo {
+        left: calc(11.3194% - 100px);
+        top: 346px; 
+    }
+    
+    .header-snapchat-logo{
+        top: 424px; 
+        right: calc(15.694444% - 100px)
+    }
+    
+    .header-dicord-logo {
+        left: calc(19.6527% - 100px);
+        top: 410px; 
+    }
+    
+    .header-telegram-logo {
+        left: calc(16.18% - 100px);
+        top: 502px; 
+    }
+    
+    .header-twitter-logo {
+        top: 534px; 
+        right: calc(14.86% - 100px);
+    }
+}
+
+@media (max-width:950px) {
+    #links-container{
+        
+    }
+    
+    .header-img1 {
+        top: 57px;  
+    }
+    
+    .header-photo1 {
+        left: calc(14.652% - 100px);
+        top: 246px;
+    }
+    
+    .header-photo2 {
+        right: calc(20.8888% - 120px);
+        top: 359px;
+    }
+    
+    .header-youtube-logo {
+        top: 260px; 
+        right: calc(13.4% - 80px);
+    }
+    
+    .header-facebook-logo {
+        left: calc(11.3194% - 50px);
+        top: 366px; 
+    }
+    
+    .header-snapchat-logo{
+        top: 454px; 
+        right: calc(15.694444% - 50px)
+    }
+    
+    .header-dicord-logo {
+        left: calc(19.6527% - 50px);
+        top: 430px; 
+    }
+    
+    .header-telegram-logo {
+        left: calc(16.18% - 50px);
+        top: 522px; 
+    }
+    
+    .header-twitter-logo {
+        top: 534px; 
+        right: calc(14.86% - 100px);
+    }
+}
+
+@media (max-width:870px) {
+    #links-container{
+        position: absolute;
+        height: 342px;
+        top: 0px;
+    }
+    
+    .header-img1 {
+        width: 31px;
+        height: 29px;
+        top: 15px;  
+    }
+    
+    .header-photo1 {
+        width: 32px;
+        height: 32px;
+        /* left: calc(14.652% - 100px); */
+        left: 14.652%;
+        top: 200px;
+    }
+    
+    .header-photo2 {
+        width: 26px;
+        height: 26px;
+        /* right: calc(20.8888% - 120px); */
+        right: 6.18%;
+        top: 260px;
+    }
+    
+    .header-youtube-logo {
+        width: 20px;
+        height: 20px;
+        top: 190px; 
+        /* right: calc(13.4% - 80px); */
+        right: 18.4%;
+    }
+    
+    .header-facebook-logo {
+        width: 16px;
+        height: 16px;
+        /* left: calc(11.3194% - 50px); */
+        left: 10.3194%;
+        top: 240px; 
+    }
+    
+    .header-snapchat-logo{
+        width: 32px;
+        height: 32px;
+        top: 200px; 
+        /* right: calc(15.694444% - 50px) */
+        right: 8.694444%;
+    }
+    
+    .header-dicord-logo {
+        width: 23px;
+        height: 23px;
+        /* left: calc(19.6527% - 50px); */
+        left: 19.6527%;
+        top: 300px; 
+    }
+    
+    .header-telegram-logo {
+        width: 15px;
+        height: 15px;
+        /* left: calc(16.18% - 50px); */
+        left: 12.18%;
+        top: 270px; 
+    }
+    
+    .header-twitter-logo {
+        width: 20px;
+        height: 20px;
+        top: 300px; 
+        /* right: calc(14.86% - 100px); */
+        right: 10.86%;
+    }
+}
+
+@media (max-width:400px) {
+    #links-container{
+        height: 400px;
+        top: 0px;
+    }
+    .header-photo1 {
+        left: 25.652%;
+        top: 239px;
+    }
+    
+    .header-photo2 {
+        right: 6.18%;
+        top: 353px;
+    }
+    
+    .header-youtube-logo {
+        top: 240px; 
+        right: 27.4%;
+    }
+    
+    .header-facebook-logo {
+        left: 10.3194%;
+        top: 260px; 
+    }
+    
+    .header-snapchat-logo{
+        top: 245px; 
+        right: 8.694444%;
+    }
+    
+    .header-dicord-logo {
+        left: 19.6527%;
+        top: 370px; 
+    }
+    
+    .header-telegram-logo {
+        left: 12.18%;
+        top: 350px; 
+    }
+    
+    .header-twitter-logo {
+        top: 375px; 
+        right: 25.86%;
+    }
+}
+
+@media (max-width:300px) {
+    #links-container{
+        display: none;
+    }
+}

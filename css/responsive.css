@@ -1,0 +1,533 @@
+@media screen and (max-width: 1080px){
+    /* ----------------- Menu ---------------------- */
+    nav {
+        padding: 17px;
+    }
+    .header-menu {
+        padding: 0px;
+    }
+
+    .demo-container > button {
+        padding: 5px 5px;
+    }
+
+    #main-watch-demo-button {
+        margin-top: 0;
+        gap: 5px;
+    }
+
+    #main-watch-demo-button > p{
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    #main-watch-demo-button > p > img {
+        width: 16px;
+        margin-right: 2px;
+    }
+    
+    .demo-container {
+        padding-top: 2px;
+    }
+
+    .contact-part {
+        margin: 32px 18px 0;
+    }
+
+    footer {
+        padding: 18px 32px;
+    }
+
+    .header-img2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 770px){
+    #main-watch-demo-button > p{
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .demo-container > button {
+        padding: 2px 2px;
+    }
+
+    #main-watch-demo-button > p > img {
+        display: none;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 870px){
+
+    /* ----------------- Menu ---------------------- */
+    .header-menu-list > ul{
+        margin: auto;
+        
+    }
+
+    .header-menu-list {
+        margin: auto;
+        max-width: 200px;
+    }
+
+    .header-sign-in {
+        max-width: 102px;
+        font-size: 12px;
+        line-height: 15px;
+        padding: 0 5px;
+    }
+
+    .company-name {
+        font-size: 13px;
+        line-height: 16px;
+    }
+
+    .header-logo-img {
+        width: 17px;
+        height: 17px;
+    }
+
+    .header-registration-button{
+        font-size: 12px;
+        line-height: 15px;
+        padding: 0 5px;
+    }
+
+    body {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    h4{
+        font-size: 16.293px;
+        line-height: 20px;  
+    }
+    /* -------------------- header ----------------- */
+    .header-title {
+        font-size: 30px;
+        line-height: 37px;
+        margin-top: 55px;
+    }
+
+
+    .start-trial-button {
+        font-size: 9.28302px;
+        line-height: 11px;
+        padding: 11.33px 11.16px;
+    }
+
+    .watch-demo-button {
+        font-size: 9.28302px;
+        line-height: 11px;
+        padding: 9.86px 18.77px;
+    }
+
+    .header-description {
+        margin-top: 15px;
+    }
+
+    .product-buttons {
+        margin-top: 63px;
+    }
+
+    /* --------------------- main ----------------------- */
+    .main-title {
+        font-size: 23.7782px;
+        line-height: 29px;
+    }
+
+    .main-part {
+        padding: 18px 27px 0;
+    }
+
+    .main-part2 {
+        margin: 0;
+        gap: 18px;
+    }
+
+    .main-part2 > div {
+        row-gap: 14px;
+    }
+
+    .panels-block {
+        margin: 0;
+        padding: 0;
+        margin: 23px 27px 0 27px;
+        /* padding: 23px 27x 0; */
+    }
+
+    .main-panel > a {
+        font-size: 9.58347px;
+        line-height: 12px;
+    }
+
+    .main-panel {
+        padding: 16px 25px;
+    }
+
+    .achievements-title{
+        font-size: 40px;
+        line-height: 49px;
+    }
+
+    .achievements-paragraph{
+        font-size: 16px;
+        line-height: 19.36px;
+    }
+
+
+
+    /* --------------------- questions ----------------- */
+    .questions-container {
+        margin: 43px auto 0;
+        padding: 0 17px;
+        display: grid;
+        grid-template-areas: "a b" "c d";
+        /* flex-wrap: wrap; */
+        max-width: 1317px;
+        row-gap: 45px;
+        column-gap: 57px;
+    }
+
+
+    /* -------------------------- Feedback ----------------------------------- */
+
+    .feedback-part-container {
+        margin-top: 41px;
+        background-color: #E2BAA4;
+        padding: 26px 18px;
+    }
+
+    .feedback-title {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    
+    .feedback-text {
+        font-size: 12.4px;
+        line-height: 15px;   
+    }
+    
+    h5 {
+        font-size: 12.4617px;
+        line-height: 15px;
+    } 
+    
+    .feedback-item {
+        padding: 25px 28px;
+        width: 415px;
+        background: #FFFFFF;
+        border-radius: 11.4631px;
+        /* margin-top: 38px; */
+    }
+
+    .feedback-container {
+        gap: 14px;
+    }
+
+    .feedback-item {
+        padding: 19px 22px;
+    }
+
+    .user-container {
+        margin-top: 28px;
+    }
+
+    /* ------------------------- Contact ----------------------------- */
+
+
+    .contact-title {
+        max-width: 300px;
+    }
+
+    .contact-button {
+        margin-top: 32px;
+        width: 170px;
+        height: 58px;
+    }
+
+    #contact-decor1 {
+        left: -100px;
+    }
+
+    #contact-decor2 {
+        position: absolute;
+        width: 46px;
+        height: 45px;
+        left: 240px;
+        top: -25px;
+    }
+
+
+    /* ----------------------------- footer -------------------------------- */
+
+    footer {
+        grid-template-areas: "a a a " "b  c d";
+        padding: 23px;
+    }
+
+    .subscribe-block > p {
+        font-size: 15.2841px;
+        line-height: 18px;
+    }
+
+}
+
+
+@media screen and (max-width: 550px){
+    /* ----------------- Menu ---------------------- */
+    nav {
+        padding: 0;
+    }
+    .header-menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .topnav {
+        flex-direction: column;
+    }
+
+    .header-menu-list {
+        margin: 0 auto;
+        padding: 0;
+        max-width: 550px;
+        width: 100%;
+        /* border: 1px solid; */
+    }
+
+    .header-menu-list > ul {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        padding-left: 0px;
+        /* border: 1px solid; */
+        align-items: center;
+    }
+
+    .header-menu-list > ul > li {
+        /* border: 1px solid; */
+        padding: 17px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header-logo {
+        margin: 17px;
+    }
+
+    .header-sign-in {
+        margin: 0;
+        /* border: 1px solid; */
+        max-width: 550px;
+        padding: 17px;
+        text-align: center;
+        border: none;
+    }
+
+    .header-registration-button {
+        max-width: 550px;
+    }
+
+    #menu-btn {
+        visibility: visible;
+    }
+
+    .header-logo {
+        max-width: 133px;
+        white-space: normal;
+    }  
+
+    .topnav div{
+        display: none;
+    } 
+    .topnav button{
+        display: none;
+    } 
+
+    .topnav.responsive > div{
+        display: block;
+    }
+
+    .topnav.responsive > button{
+        display: block;
+    }
+
+
+    /* ----------------- main -------------------- */
+
+    header {
+        margin-bottom: 0;
+    }
+    .main-part {
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        padding: 0 27px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+
+    .main-title, .main-paragraph {
+        max-width: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .main-title1{
+        margin: 18px 22.5px 0;
+    }
+    .main-paragraph1 {
+        margin: 22.59px auto 0 auto;
+    }  
+
+    .main-part2 > img{
+        width: 100%;
+        height: auto;
+    }
+
+    .main-part2 {
+        margin-top: 63px;
+    }
+
+    .panels-block {
+        flex-direction: column;
+    }
+
+    .main-part > img {
+        min-width: 0;
+    }
+
+    #main-watch-demo-button > p > img {
+        display: inline-block;
+    }
+
+    #main-watch-demo-button {
+        padding: 8px 23px;
+    }
+    
+    .main-part4 {
+        max-width: 100%;
+        max-width: none;
+        max-height: none;
+    }
+
+    .demo-container{
+        width: 100%;
+    }
+
+    .demo-img-container {
+        width: 100%;
+    }
+    /* ----------------------- achievements ------------------- */
+
+    .achievements-block > div{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        margin-top: 28.2px;
+        padding: 32.5px 0;
+        justify-content: space-between;
+        height: 569px;
+    }
+
+
+    /* -------------------------- questions ------------------------- */
+    .questions-container {
+        display: grid;
+        grid-template-areas: "a" "b" "c" "d";
+
+    }
+
+    /* -------------------------- feedback ------------------------- */
+    .feedback-container {
+        flex-direction: column;
+    }
+
+    .feedback-part-container{
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+
+    .feedback-item {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    /* ------------------------- Contact ----------------------------- */
+
+    .contact-part {
+        border: none;
+        border-radius: 0;
+        margin: 32px 0 0;
+    }
+
+    .contact-title {
+        max-width: 250px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+    }
+
+    .contact-button {
+        margin-top: 44px;
+        width: 170px;
+        height: 58px;
+        background: #262626;
+        color: #FEFEFE;
+    }
+
+    #contact-decor1 {
+        left: -32px;
+        transform: rotate(-20deg);
+        width: 98px;
+        height: 149px;
+        z-index: 0;
+    }
+
+    #contact-decor2 {
+        display: none;
+    }
+
+    /* ----------------------------- footer -------------------------------- */
+
+    footer {
+        grid-template-areas: "a a" "b  c" "d d";
+        padding: 23px;
+    }
+
+    #subscribe-form {
+        width: 90%;
+    }
+    
+    #subscribe-email {
+        width: 50%;
+    }
+
+    #subscribe-button {
+        width: 115px;
+    }
+}
+
+
+@media screen and (max-width: 300px) {
+    #subscribe-form {
+        flex-direction: column;
+    }
+
+    #subscribe-button {
+        width: auto;
+    }
+
+    #subscribe-email {
+        height: 40px;
+        width: auto;
+        margin: 3px;
+        padding: 0;
+    }
+}
